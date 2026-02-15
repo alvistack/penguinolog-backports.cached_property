@@ -44,6 +44,7 @@ KEYWORDS = ["caching", "development"]
 
 setuptools.setup(
     name="backports.cached-property",
+    version="1.0.2",
     author="Aleksei Stepanov",  # Python Software Foundation (original code author: Nick Coghlan)
     author_email="penguinolog@gmail.com",
     maintainer="Aleksei Stepanov penguinolog@gmail.com",
@@ -56,5 +57,4 @@ setuptools.setup(
     keywords=KEYWORDS,
     python_requires=">=3.6.0",
     install_requires=REQUIRED,
-    use_scm_version={"write_to": f"{PACKAGE_NAME.replace('.', '/')}/_version.py"},
 )

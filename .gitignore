@@ -11,7 +11,6 @@
 
 ### Generated code
 /pip-wheel-metadata
-/backports/cached_property/_version.py
 ### TortoiseGit template
 # Project-level settings
 /.tgitconfig
@@ -118,7 +117,6 @@ MANIFEST
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
-*.spec
 
 # Installer logs
 pip-log.txt
@@ -814,3 +812,4 @@ fabric.properties
 !.vscode/launch.json
 !.vscode/extensions.json
 
+.pybuild/
